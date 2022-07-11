@@ -1,0 +1,354 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+body{
+    min-width: 1440px;
+}
+
+.main__title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    }
+
+/*---------Start header-----*/ 
+.footer-plan {
+    background: url('./img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 765px;
+} 
+.wrapper {
+    max-width: 1177px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 24px 0;
+     
+}
+.header__logo {
+  background: url('./img/logo.svg') no-repeat left bottom 7px;  
+    
+}
+
+.header__logo-desc {
+font-family: 'Magra';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+padding-left: 36px;
+color: #FFFFFF;
+}
+
+.header__nav_list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header__nav_item {
+    margin-right: 47px;
+}
+.header__nav_item:last-child{
+    margin-right: 0px;
+}
+.header__nav_link {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+.header__button {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 10px 30px;
+background-color: #0D606F;
+border: 0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+}
+
+/*----------end header------------*/
+
+/*----------Start plan------------*/
+
+.plan__wrapper {
+    margin: 32px auto auto 120px;
+    max-width: 892px;
+    padding: 33px 0px;
+}
+.plan__title {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+color: #FFFFFF;
+}
+
+.plan__subtitle {
+    margin: 46px auto 46px 0px;
+    font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.plan__form_info {
+    position: relative;
+}
+.plan__form_field {
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+padding: 32px 555px 41px 41px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+text-decoration: none;
+border: 0;
+}
+::-webkit-input-placeholder{
+    color: #F2785C;
+}
+.plan__form_button {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+padding: 13.5px 33.5px;
+background-color: #0D606F;
+border: 0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+}
+/*----------end plan--------------*/
+
+
+/*---------Start steps-------------*/
+
+.steps {
+    padding: 80px 0 97px 0;
+}
+.wrapper {
+}
+.steps__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.steps__card-date {
+    margin: 0 160px 0 231px;
+}
+.steps__card-pic {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto 30px auto;
+    border-radius: 16px;
+    background-color: #F2785C;
+}
+.bicycle{
+    padding: 28px 25px;
+}
+
+.date{
+    padding: 24px;
+}
+
+.airplane{
+    padding: 28px 20px;
+}
+.steps__card-thamp {
+}
+.steps__card-title {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+
+}
+
+/*---------End steps----------------*/
+
+/*----------sTART DESTINATIONS--------*/
+
+.destinations {
+}
+.destinations__title {
+    text-align: center;
+}
+
+.destinations__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 60px;
+     overflow: hidden;
+}
+.destinaton__card {
+   
+}
+
+/*-------END DESTINATIONS--------*/
+
+/*--------Start stories-footer-------*/
+
+
+.stories-footer {
+}
+.stories-footer__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.stories-footer__background {
+    background: url('./img/boat.jpg') no-repeat center;
+    background-size: cover;  
+}
+.stories {
+    background: rgba(255, 255, 255, 0.7);
+}
+.stories__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.stories__cards {
+}
+.stories__card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 40px;
+    margin-bottom: 30px;
+}
+
+.stories__card:last-child{
+    margin-bottom: 40px;
+}
+.stories__card-pic {
+
+}
+.stories__card-thamb {
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+
+}
+.stories__card-title {
+margin-bottom: 24px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #0D606F;
+}
+.stories__card-desk {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+
+}
+.stories__card-href {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+
+}
+.stories__button {
+display: block;
+padding: 13.5px 31px 13.5px 81px;
+background: #0D606F url('./img/arrow.svg') no-repeat left 30px center;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+border: 0;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+margin: 0 auto;
+}
+
+.footer {
+    padding: 13.35px 0;
+}
+.footer__wrapper {
+    max-width: 729px;
+    display: flex;
+    justify-content: end;
+    margin: 0px 121px 0px auto;
+    align-items: center;
+}
+
+.footer__title {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+margin: 0 auto 0 0;
+}
+.footer__icon {
+    margin-right: 20px;
+}
+.footer__icon:last-child{
+    margin-right: 0px;
+}
+.footer__icon-href {
+}
+.footer__icon-pic {
+}
+/*---------End stories-footer--------*/
